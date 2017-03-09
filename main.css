@@ -6,3 +6,7 @@ body {
     padding-bottom: 20px;
     color: green;
 }
+
+.social-links {
+  list-style-type: none;
+}
