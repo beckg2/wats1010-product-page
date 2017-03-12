@@ -19,18 +19,19 @@
 
     </head>
     <body>
-        <div class="container-fluid">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="navbar-header">
-				<img alt="API Superstore" src="assets/logos/api_superstore_logo_bg.png" class="img-responsive">
-			</div>
-			<div>
+			
+
+			<nav class="navbar navbar-default navbar-fixed-top">
+<!-- 			<div class="navbar-header"> -->
+				<div id="API-Superstore">
+          <header role="banner">
+				</div>
 				<ul class="nav nav-pills">
 					<li role="presentation"><a href="#home" alt="Home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
 					</li>
 					<li role="presentation"><a href="#about">About</a>
 					</li>
-					<li role="presentation"><a href="#talk">Talk</a>
+					<li role="presentation"><a href="#testimonials">Testimonials</a>
 					</li>
 					<li role="presentation"><a href="#contact">Contact</a>
 					</li>
@@ -41,34 +42,30 @@
 						<button type="button" class="btn-sm btn-success">Sign Up</button>
 					</li>
 				</ul>
-			</div>
-		</nav>
-	</div>
+			
+					</header>
+			</nav>
 
-      
-          
 
-      	<div class="container-fluid">
-            <div class="header">
-              <img alt="API Superstore" src="assets/logos/api_superstore_logo_ry.png" class="img-responsive">
-            </div>
-        <div>
-      
-  
-      
-      <div class="container">          
+      <section id="video" class="container"> 
+            <div class="col-lg-6 col-lg-offset-1 text-center">
+              <iframe class="embed-responsive-item" width="1000" height="720" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>      
+          </div>
+       </section>
+					
+      <div id="about" class="container">          
       <div class="row"> 
         
          <div class="col-md-6">
-                      <div class="row">
-                     <h1>Product Descriptions</h1>    
+                     
+                     <h1 id="description">Product Descriptions</h1>    
                           <p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your
                               business. From e­commerce to maps, API Superstore lists all of the services that customers
                               expect and saves you the headache of sorting it out yourself! The longer you wait, the longer
                               you’re not making more money and happier users!</p>
                       </div>
-                      <div class="row">
-                          <h1>Features List</h1>
+                      <div class="col-md-6">
+                          <h1 id="features">Features List</h1>
 
                               <p>Here is the feature list for API Superstore:
                                   <ul>
@@ -79,47 +76,46 @@
                                   </ul>
                       </div>
           </div>
+					</div>
+					
 
-          <div class="col-md-6"> 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>      
-          </div>
-        
-      </div>
-        
-        
-        
+         <div id="testimonials" class="container"> 
       <div class="row">
+				<div class="col-lg-6 col-lg-offset-3 text-center">
               <h1>Testimonials</h1>
-              <img alt="testimonials" src="testimonials.jpg" class="img-responsive">
+              <img class="testimonials-banner" src="testimonials.jpg" alt="testimonials-banner">
+					</div>
+				</div>
+				<div class="row">
             <div class="col-md-4">
-                <img alt="testimonial-1" src="testimonial-1.jpg" class="img-responsive">
+                <img class="headshot" src="testimonial-1.jpg"  alt="headshot-1">
                 <p>“This is the beset website ever!” -- C. P. Yu, AmazingSite.com</p>    
             </div>
       
             <div class="col-md-4">
-                <img alt="testimonial-2" src="testimonial-2.jpg" class="img-responsive">
+                <img class="headshot" src="testimonial-2.jpg" alt="headshot-2">
                 <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are
                 SUPER!” -- Clara Cache</p>
             </div>
 
             <div class="col-md-4">
-               <img alt="testimonial-3" src="testimonial-3.jpg" class="img-responsive">
+               <img class="headshot" src="testimonial-3.jpg" alt="headshot-3">
                <p>“I have really admired the way the API Superstore team has created a truly divine
                   interface, and API Superstore makes my world so much happier!”
                   -- Aaron Zon, Massive Anonymous Customer</p>
-
+						</div>
             </div>
       </div>         
 
-        
-
+         <div class="container"> 
+<div class="row">
 			<div id="contact" class="col-xs-6">
 				<h3>Contact</h3>
 				<p>We want to hear from you. Get in touch with API Superstore.</p>
 					<address>
 					  	<strong>API Superstore</strong><br>
 						Seattle, Washington, USA<br>
-					  	<abbr title="Phone">Phone:</abbr> (206) 555-1234<br>
+					  	Phone: (206) 555-1234<br>
 					  	<a href="mailto:#">Email: info@apisuperstore.com</a>
 					</address>
 			</div>
@@ -139,12 +135,11 @@
 				</form>
 			</div>
 		</div>
-
-	</div>
+</div>
 
           <div class="container">
     			<div class="row">
-				<div class="banner" class="col-xs-8">
+				<div id="social" class="col-lg-6 col-lg-offset-3 text-center">
 					<h2>Click, Click, Code!</h2>
 					<p>Connect with us. We're all API's, all the time.</p>
 					<ul class="social-links">
@@ -157,12 +152,12 @@
          </div>  
          
           
-          <div class="container">
-		<footer class="footer">
-<p class="text-muted"><i>&copy; George Beck, 2017.</i> This page was made for <a href="http://webdev.seattleu.edu/courses.html">WATS1010: Introduction to Web Development</a>.
-        Content: <a href="http://webdev.seattleu.edu/"> Seattle University Web Development Program</a>.</p>
-</footer>
-</div>	
+<div id="social" class="col-lg-6 col-lg-offset-3 text-center">
+				<footer class="footer">
+					<p id="webdev"><i>&copy; George Beck, 2017.</i> This page was made for <a href="http://webdev.seattleu.edu/courses.html">WATS1010: Introduction to Web Development</a>.
+									Content: <a href="http://webdev.seattleu.edu/"> Seattle University Web Development Program</a>.</p>
+				</footer>
+</div> 
 
     </body>
 </html>
